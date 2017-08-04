@@ -1,0 +1,16 @@
+#textCont{
+	height:65vh;
+	width: 100%;
+	background-image: url("../images/nintendoBack.jpg");
+	background-size: cover;
+	color:white;
+}
+#buttonCont{
+	height: 35vh;
+	width: 100%;
+	color: white;
+}
+button{
+	width:50%;
+	height:17vh;
+}

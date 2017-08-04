@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivial Knowledge</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div id="textCont">
+		<span>TRIVIA GAME STARTS IN 10 SECONDS</span>
+	</div>
+	<div id="buttonCont">
+	</div>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		setTimeout(trivia.loadQuestion,10000,"1");
+		setTimeout(trivia.ResetQuestion,19999);
+		setTimeout(trivia.loadQuestion,20000,"2");
+		setTimeout(trivia.ResetQuestion,29999);
+		setTimeout(trivia.loadQuestion,30000,"3");
+		setTimeout(trivia.ResetQuestion,39999);
+		setTimeout(trivia.loadQuestion,40000,"4");
+		setTimeout(trivia.ResetQuestion,49999);
+		setTimeout(trivia.loadQuestion,50000,"5");
+		setTimeout(trivia.ResetQuestion,59999);
+		setTimeout(trivia.outScore,60000);
+	});
+	</script>
+</body>
+</html>
